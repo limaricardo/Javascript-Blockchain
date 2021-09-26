@@ -1,4 +1,4 @@
-
+const {Blockchain, Transaction} = require('./blockchain');
 
 let limaCoin = new Blockchain();
 limaCoin.createTransaction(new Transaction('address1',"address2", 100));
